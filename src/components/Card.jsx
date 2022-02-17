@@ -5,7 +5,7 @@ function Card(props) {
     <div className="term">
       <dt>
         <span className="emoji" role="img" aria-label="Tense Biceps">
-          {props.emojiNam}
+          {props.emojiName}
         </span>
         <span>{props.title}</span>
       </dt>
